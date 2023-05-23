@@ -19,7 +19,7 @@ mongoose.connect('mongodb://localhost/social_network_db', {
   });
 
 // User routes
-const userRoutes = require('./routes/users');
+const userRoutes = require('./routes/users.js');
 app.use('/api/users', userRoutes);
 
 // Thought routes
